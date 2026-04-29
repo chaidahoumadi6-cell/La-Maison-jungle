@@ -7,19 +7,21 @@
     justify-content: space-between;
     padding: 1px;
     border-bottom: 3px solid #777;
-    background-color: beige;
+    background-color: wheat;
 }
-.banner-title {
+.title {
     color:black;
     font-size: 4rem;
     margin: 100;
     font-family: 'Georgia', serif;
     
 }
-.banner-logo {
+.logo {
   height: 60px;
   width: auto;
   margin-left: 20px;
   display: flex;
 
 }
+
+

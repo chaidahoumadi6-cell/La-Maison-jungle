@@ -1,0 +1,11 @@
+.cart {
+    padding: 32px;
+    background-color: #31b572;
+    color:beige;
+}
+
+.ma-liste {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
