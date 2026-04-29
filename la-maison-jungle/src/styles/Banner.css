@@ -1,0 +1,25 @@
+/* Mise en frome du composant Banner.jsx */
+
+/* Le .banner permet de sélectionner la classe banner qui se trouve dans le composant Banner.jsx*/
+.banner {
+    /*display: flex;*/
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px;
+    border-bottom: 3px solid #777;
+    background-color: beige;
+}
+.banner-title {
+    color:black;
+    font-size: 4rem;
+    margin: 100;
+    font-family: 'Georgia', serif;
+    
+}
+.banner-logo {
+  height: 60px;
+  width: auto;
+  margin-left: 20px;
+  display: flex;
+
+}
