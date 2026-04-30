@@ -12,7 +12,7 @@ const Cart = () => {
     return(
         <div className={styles.cart}>
             <h2>Votre panier</h2>
-            <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+            <ul style={{ listStyle: 'none'}}>
                 <li>Monstera : {monstera} €</li>
                 <li>Lierre : {lierre} €</li>
                 <li>Bouquet de fleurs : {bouquet} €</li>

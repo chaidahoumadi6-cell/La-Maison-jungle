@@ -7,6 +7,7 @@ import './App.css'
 import Banner from './components/Banner'
 
 import Cart from'./components/Cart'
+import ShoppingList from'./components/ShoppingList'
 
 //App est le composant principal de l'application
 function App() {
@@ -18,6 +19,8 @@ function App() {
     <>
       <Banner /> 
       <Cart />
+      <ShoppingList />
+
     </>
   )
 }

@@ -1,0 +1,22 @@
+/* ShoppingList.module.css */
+
+.lmjPlantList {
+  list-style-type: none;
+  padding: 32px;
+  display: flex;
+  max-width: 1200px; /* augmenté pour accueillir les cartes plus larges */
+  height: 250px;
+  margin: 20px;
+  align-items: center;
+}
+
+.lmjPlantItem {
+  border: solid 2px;
+  border-radius: 10px;
+  margin: 5px;
+  height: 200px;  /* un peu plus grand */
+  width: 220px;   /* ← largeur augmentée */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centre le contenu horizontalement */
+}

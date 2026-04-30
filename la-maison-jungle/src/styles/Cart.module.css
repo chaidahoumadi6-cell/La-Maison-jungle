@@ -2,6 +2,9 @@
     padding: 32px;
     background-color: #31b572;
     color:beige;
+    text-align: left;
+    margin-right: auto;
+    width: fit-content;
 }
 
 .ma-liste {
@@ -9,3 +12,4 @@
     padding: 0;
     margin: 0;
 }
+
