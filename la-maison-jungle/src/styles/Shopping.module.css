@@ -1,22 +1,39 @@
 /* ShoppingList.module.css */
 
 .lmjPlantList {
+  background-color: rgb(207, 226, 225);
   list-style-type: none;
   padding: 32px;
   display: flex;
-  max-width: 1200px; /* augmenté pour accueillir les cartes plus larges */
-  height: 250px;
-  margin: 20px;
-  align-items: center;
+  max-width: 1500px; /* augmenté pour accueillir les cartes plus larges */
+  /*height: 250px;*/
+  /*margin: 20px;*/
+  gap: 1px;
+  /*width: fit-content;*/
+  /*align-items: center;*/
+
 }
 
+/* Sur ta carte existante, ajoute position: relative */
 .lmjPlantItem {
   border: solid 2px;
-  border-radius: 10px;
+  border-radius: 20px;
   margin: 5px;
-  height: 200px;  /* un peu plus grand */
-  width: 220px;   /* ← largeur augmentée */
+  height: 150px;
+  width: 150px;
   display: flex;
+  flex-direction: column;      /* empile icône + nom verticalement */
   align-items: center;
-  justify-content: center; /* centre le contenu horizontalement */
+  justify-content: center;
+  position: relative;          /*  nécessaire pour positionner le badge */
+}
+
+/* Le badge "Solde" en haut à gauche */
+.lmjSales {
+  color: black;
+  font-weight: 700;
+  padding: 5px 10px;
+  position: absolute;          /* se positionne par rapport à la carte */
+  top: 5px;                    /*  collé en haut */
+  left: 5px;                   /*  collé à gauche */
 }
