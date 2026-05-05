@@ -6,8 +6,7 @@
 
 import styles from '../styles/Shopping.module.css'
 
-// J'importe le fichier CareScale appliqué le composant
-import CareScale from './CareScale'
+import PlantItem from './PlantItem'
 
 const plantList =[
     {
@@ -86,27 +85,22 @@ const plantList =[
 
 const ShoppingList = () => {
     return (
-        // Conteneur principal de la liste
-        // (ul) Liste non ordonnée avec le style CSS 
-        // On parcourt chaque plante du tableau plantList 
-        // Si la plante est en best-seller → 💍, sinon → 👙
-        // Affiche le nom de la plante 
         <div className={styles.plantList}>
-        <ul className={styles.lmjPlantList}> 
-        {plantList.map((plant) => (
-        //Chaque plante devient un élément de liste, key est obligatoire en React 
-        <li key={plant.id} className={styles.lmjPlantItem}>
-        {plant.isBestSale ? <span>💍</span>: <span >👙</span>}
-      {plant.name}
-      {plant.isSpecialOffer ? <span className={ styles.lmjSales}>Solde</span> : <span></span>}
-
-      <CareScale careType="light" scaleValue={plant.light}></CareScale>
-      <CareScale careType="water" scaleValue={plant.water}></CareScale>
-    </li>
-  ))}
-</ul>
-</div>
-
+            <ul className={styles.lmjPlantList}>
+                {plantList.map((plant) => (
+                    <PlantItem
+                        key={plant.id}
+                        id={plant.id}
+                        name={plant.name}
+                        cover={plant.cover}
+                        water={plant.water}
+                        light={plant.light}
+                        isBestSale={plant.isBestSale}
+                        isSpecialOffer={plant.isSpecialOffer}
+                    />
+                ))}
+            </ul>
+        </div>
     )
 }
 

@@ -2,6 +2,8 @@
  * Le composant Cart représente le panier de courses.
  * Le composant Cart sera réutilisé dans le composant App.
  */
+// J'importe le fichier  appliqué le composant
+
 import styles from '../styles/Cart.module.css'
 
 const Cart = () => {
