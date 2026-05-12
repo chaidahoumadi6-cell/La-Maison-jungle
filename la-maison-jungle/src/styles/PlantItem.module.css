@@ -1,17 +1,16 @@
-/* Le style pour le copostant plantItem.jsx*/
-
+/* Style principal de chaque élément plante */
 .lmjplantItem {
-    margin: 10px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    text-transform: capitalize;
+    margin: 10px; /* Ajoute un espace extérieur autour de chaque carte */
+    display: flex;  /* Active Flexbox pour organiser les éléments */
+    align-items: flex-start; /* Aligne les éléments au début sur l’axe horizontal */
+    justify-content: center; /* Centre les éléments sur l’axe vertical */
+    flex-direction: column; /* Place les éléments en colonne */
+    text-transform: capitalize;  /* Met la première lettre de chaque mot en majuscule */
 }
 
-/* style pour l'image de la plant*/
+/* Style de l’image de la plante */
 .lmjplantItemCover {
-    height: 200px;
-    width: 200px;
-    border-radius: 20px;
+    height: 200px; /* Définit la hauteur de l’image */
+    width: 200px;  /* Définit la largeur de l’image */
+    border-radius: 20px; /* Arrondit les coins de l’image */
 }

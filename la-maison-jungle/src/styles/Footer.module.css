@@ -1,0 +1,14 @@
+.lmjFooter {
+    color: #130d0d;
+    padding: 32px;
+    background-color: rgb(24, 196, 190);
+    border-top: solid 3px black;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lmjFooterElem {
+    margin-bottom: 10px;
+}

@@ -1,14 +1,21 @@
 /* ShoppingList.module.css */
 
+.plantList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .lmjPlantList {
   background-color: rgb(207, 226, 225);
   list-style-type: none;
   padding: 32px;
   display: flex;
+  flex-wrap: wrap;
   max-width: 1500px; /* augmenté pour accueillir les cartes plus larges */
   /*height: 250px;*/
   /*margin: 20px;*/
-  gap: 1px;
+  gap: 10px;
   /*width: fit-content;*/
   /*align-items: center;*/
 

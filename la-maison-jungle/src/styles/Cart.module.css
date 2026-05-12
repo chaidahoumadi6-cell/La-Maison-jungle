@@ -1,15 +1,16 @@
+/* Style principal du panier */
 .cart {
-    padding: 32px;
-    background-color: #31b572;
-    color:beige;
-    text-align: left;
-    margin-right: auto;
-    width: fit-content;
+    padding: 32px; /* Ajoute un espace intérieur autour du contenu */
+    background-color: #31b572; /* Définit la couleur de fond du panier */
+    color: beige; /* Définit la couleur du texte */
+    text-align: left;  /* Aligne le texte à gauche */
+    margin-right: auto; /* Pousse l’élément vers la gauche */
+    width: fit-content; /* Ajuste automatiquement la largeur selon le contenu */
 }
 
+/* Style personnalisé pour une liste */
 .ma-liste {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+    list-style: none; /* Supprime les puces de la liste */
+    padding: 0;  /* Supprime l’espace intérieur */
+    margin: 0; /* Supprime l’espace extérieur */
 }
-
